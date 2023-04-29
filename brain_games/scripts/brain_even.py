@@ -5,14 +5,16 @@ from random import randint
 
 def is_even(number):
     if number % 2 == 0:
-       return 'yes'
+        return 'yes'
     else:
         return 'no'
 
+
 print('Welcome to the Brain Games!')
 name = prompt.string('May I have your name? ')
-print ('Hello, ' + name + '!')
+print('Hello, ' + name + '!')
 print('Answer "yes" if the number is even, otherwise answer "no".')
+
 
 def even_question():
     counter = 0
@@ -25,8 +27,8 @@ def even_question():
             print('Correct!')
             counter += 1
         else:
-            print("'" + answer + "' is wrong answer ;(. Correct answer was '" +
-(is_even(int(str_num))) + "'.")
+            print("'" + answer + "' is wrong answer ;(. Correct answer was '"
+                  + (is_even(int(str_num))) + "'.")
             print("Let's try again, " + name + '!')
             break
     if counter == 3:
