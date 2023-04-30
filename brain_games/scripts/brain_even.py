@@ -1,7 +1,7 @@
 
-import prompt
 from random import randint
 from brain_games.games.common_functions import hello, question, congratulation
+
 
 def is_even(number):
     if number % 2 == 0:
