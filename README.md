@@ -7,12 +7,29 @@ src="https://api.codeclimate.com/v1/badges/d933dc886756d0a1eb03/maintainability"
 
 # Link to asciinema video with brain-even game test 
 https://asciinema.org/connect/2eaa6a65-5745-4524-9282-776349ae28da
+<a href="https://asciinema.org/a/cUogpyf2UWm1Y1R0VygrXLqYo" target="_blank"><img src="https://asciinema.org/a/cUogpyf2UWm1Y1R0VygrXLqYo.svg" /></a>
+[![asciicast](https://asciinema.org/a/cUogpyf2UWm1Y1R0VygrXLqYo.svg)](https://asciinema.org/a/cUogpyf2UWm1Y1R0VygrXLqYo)
 
 # Link to asciinema video with brain-calc game test
 https://asciinema.org/a/AMPisdRse5gNXlLl9vOKQKV0j
+<a href="https://asciinema.org/a/AMPisdRse5gNXlLl9vOKQKV0j" target="_blank"><img src="https://asciinema.org/a/AMPisdRse5gNXlLl9vOKQKV0j.svg" /></a>
+[![asciicast](https://asciinema.org/a/AMPisdRse5gNXlLl9vOKQKV0j.svg)](https://asciinema.org/a/AMPisdRse5gNXlLl9vOKQKV0j)
 
 # Link to asciinema video with brain-gcd game test
 https://asciinema.org/a/Jtb2vQReLdH6jtmeyu4i3RCl2
+<a href="https://asciinema.org/a/Jtb2vQReLdH6jtmeyu4i3RCl2" target="_blank"><img src="https://asciinema.org/a/Jtb2vQReLdH6jtmeyu4i3RCl2.svg" /></a>
+[![asciicast](https://asciinema.org/a/Jtb2vQReLdH6jtmeyu4i3RCl2.svg)](https://asciinema.org/a/Jtb2vQReLdH6jtmeyu4i3RCl2)
 
 # Link to asciinema video with brain-progression game test
 https://asciinema.org/a/N2qr42Wbwzdo8bEADIEIK6q1r
+<a href="https://asciinema.org/a/N2qr42Wbwzdo8bEADIEIK6q1r" target="_blank"><img src="https://asciinema.org/a/N2qr42Wbwzdo8bEADIEIK6q1r.svg" /></a>
+[![asciicast](https://asciinema.org/a/N2qr42Wbwzdo8bEADIEIK6q1r.svg)](https://asciinema.org/a/N2qr42Wbwzdo8bEADIEIK6q1r)
+
+# Link to asciinema video with brain-prime game test
+https://asciinema.org/a/vHNj3kJOJZJBNLzxZ8AlR9fra
+<a href="https://asciinema.org/a/vHNj3kJOJZJBNLzxZ8AlR9fra" target="_blank"><img src="https://asciinema.org/a/vHNj3kJOJZJBNLzxZ8AlR9fra.svg" /></a>
+[![asciicast](https://asciinema.org/a/vHNj3kJOJZJBNLzxZ8AlR9fra.svg)](https://asciinema.org/a/vHNj3kJOJZJBNLzxZ8AlR9fra)
+
+
+# For instsall run <poetry build>, <poetry publish --dry-run>, <python3 -m pip install --user dist/*.whl>. For start game type <brain-even>, <brain-calc>, 
+#<brain-gcd>, <brain-progression> or <brain-prime> in terminal.
