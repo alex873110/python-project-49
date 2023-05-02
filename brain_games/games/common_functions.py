@@ -16,8 +16,8 @@ def question(expression, result, counter):
         print('Correct!')
         return (counter + 1)
     else:
-        print("'" + answer + "' is wrong answer ;(. Correct answer was '" +
-              str(result) + "'.")
+        print("'" + answer + "' is wrong answer ;(. Correct answer was '"
+              + str(result) + "'.")
         print("Let's try again, " + name + '!')
         return (4)
 
