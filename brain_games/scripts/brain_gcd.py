@@ -12,6 +12,7 @@ def gcd(a, b):
     gcd = smaller
     return (gcd)
 
+
 def bg_gcd():
     hello()
     global counter
@@ -22,16 +23,15 @@ def bg_gcd():
         num2 = randint(1, 100)
         expression = str(num1) + ' ' + str(num2)
         result = gcd(num1, num2)
-        count = question (expression, result, counter)
+        count = question(expression, result, counter)
         counter = count
     if counter == 3:
         congratulation()
 
 
 def main():
-   bg_gcd()
+    bg_gcd()
 
 
 if __name__ == '__main__':
     main()
-    
