@@ -6,7 +6,7 @@ def hello():
     print('Welcome to the Brain Games!')
     global name
     name = prompt.string('May I have your name? ')
-    return ('Hello, ' + name + '!')
+    print('Hello, ' + name + '!')
 
 
 def question(expression, result, counter):

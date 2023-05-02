@@ -10,11 +10,9 @@ def is_even(number):
         return 'no'
 
 
-hello()
-print('Answer "yes" if the number is even, otherwise answer "no".')
-
-
 def even_question():
+    hello()
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     counter = 0
     while counter < 3:
         num = randint(1, 1000)
