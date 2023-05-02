@@ -13,3 +13,6 @@ https://asciinema.org/a/AMPisdRse5gNXlLl9vOKQKV0j
 
 # Link to asciinema video with brain-gcd game test
 https://asciinema.org/a/Jtb2vQReLdH6jtmeyu4i3RCl2
+
+# Link to asciinema video with brain-progression game test
+https://asciinema.org/a/N2qr42Wbwzdo8bEADIEIK6q1r
