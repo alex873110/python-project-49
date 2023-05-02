@@ -10,3 +10,6 @@ https://asciinema.org/connect/2eaa6a65-5745-4524-9282-776349ae28da
 
 # Link to asciinema video with brain-calc game test
 https://asciinema.org/a/AMPisdRse5gNXlLl9vOKQKV0j
+
+# Link to asciinema video with brain-gcd game test
+https://asciinema.org/a/Jtb2vQReLdH6jtmeyu4i3RCl2
