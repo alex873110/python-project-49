@@ -15,7 +15,8 @@ def random_expression():
         result = num1 - num2
     else:
         result = num1 * num2
-    return expression    
+    return expression
+
 
 def calculation():
     hello()
