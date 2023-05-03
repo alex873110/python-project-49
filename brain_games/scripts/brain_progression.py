@@ -24,10 +24,9 @@ def progression():
 
 
 def bg_progression():
-    hello()
-    global counter
+    task = 'What number is missing in the progression?'
+    hello(task)
     counter = 0
-    print('What number is missing in the progression?')
     while counter < 3:
         expression = progression()
         count = question(expression, result, counter)

@@ -14,10 +14,9 @@ def gcd(a, b):
 
 
 def bg_gcd():
-    hello()
-    global counter
+    task = 'Find the greatest common divisor of given numbers.'
+    hello(task)
     counter = 0
-    print('Find the greatest common divisor of given numbers.')
     while counter < 3:
         num1 = randint(1, 100)
         num2 = randint(1, 100)

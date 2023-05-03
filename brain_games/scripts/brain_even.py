@@ -11,8 +11,8 @@ def is_even(number):
 
 
 def even_question():
-    hello()
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+    task = 'Answer "yes" if the number is even, otherwise answer "no".'
+    hello(task)
     counter = 0
     while counter < 3:
         num = randint(1, 1000)

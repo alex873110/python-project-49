@@ -2,11 +2,12 @@
 import prompt
 
 
-def hello():
+def hello(task):
     print('Welcome to the Brain Games!')
     global name
     name = prompt.string('May I have your name? ')
     print('Hello, ' + name + '!')
+    print(task)
 
 
 def question(expression, result, counter):

@@ -19,10 +19,9 @@ def random_expression():
 
 
 def calculation():
-    hello()
-    global counter
+    task = 'What is the result of the expression?'
+    hello(task)
     counter = 0
-    print('What is the result of the expression?')
     while counter < 3:
         count = question(random_expression(), result, counter)
         counter = count

@@ -17,10 +17,9 @@ def is_prime():
 
 
 def bg_is_prime():
-    hello()
-    global counter
+    task = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    hello(task)
     counter = 0
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     while counter < 3:
         result = is_prime()
         count = question(expression, result, counter)
