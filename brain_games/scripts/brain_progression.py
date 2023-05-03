@@ -24,14 +24,14 @@ def progression():
 
 
 def bg_progression():
-    task = 'What number is missing in the progression?'
-    hello(task)
-    counter = 0
-    while counter < 3:
+    exercize = 'What number is missing in the progression?'
+    hello(exercize)
+    count = 0
+    while count < 3:
         expression = progression()
-        count = question(expression, result, counter)
-        counter = count
-    if counter == 3:
+        counter = question(expression, result, count)
+        count = counter
+    if count == 3:
         congratulation()
 
 
