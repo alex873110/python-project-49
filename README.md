@@ -33,3 +33,9 @@ https://asciinema.org/a/vHNj3kJOJZJBNLzxZ8AlR9fra
 
 # For instsall run <poetry build>, <poetry publish --dry-run>, <python3 -m pip install --user dist/*.whl>. For start game type <brain-even>, <brain-calc>, 
 #<brain-gcd>, <brain-progression> or <brain-prime> in terminal.
+
+# brain_games project with math games,for  check you ability to 
+# calculate(brain-calc), find even numbers(brain-even), understand number is prime or not(brain-prime), 
+# understand arithmetic progression(brain-progression), find greatest common divisor(brain-gcd). In each game you have to answer 3 question for win, if you answer is wrong you loose, and you can try 
+# again). 
+# package prompt and random used in this project. 
