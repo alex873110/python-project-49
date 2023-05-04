@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import prompt
 
 
@@ -10,17 +9,23 @@ def hello(task):
     print(task)
 
 
-def question(expression, result, counter):
-    print('Question: ' + expression)
-    answer = prompt.string('Your answer:')
-    if answer == str(result):
-        print('Correct!')
-        return (counter + 1)
-    else:
-        print("'" + answer + "' is wrong answer ;(. Correct answer was '"
-              + str(result) + "'.")
-        print("Let's try again, " + name + '!')
-        return (4)
+def question(game):
+    (expression, result, task) = game()
+    hello(task)
+    counter = 0
+    while counter < 3:
+        print('Question: ' + expression)
+        ans = prompt.string('Your answer:')
+        if ans == str(result):
+            print('Correct!')
+            counter = counter + 1
+            (expression, result, task) = game()
+        else:
+            print(f"'{ans}' is wrong answer ;(. Correct answer was '{result}'.")
+            print("Let's try again, " + name + '!')
+            break
+    if counter == 3:
+        congratulation()
 
 
 def congratulation():

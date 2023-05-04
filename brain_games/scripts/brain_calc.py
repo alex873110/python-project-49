@@ -1,36 +1,10 @@
 #!/usr/bin/env python3
-from random import randint, choice
-from brain_games.games.common_functions import hello, question, congratulation
-
-
-def random_expression():
-    num1 = randint(1, 100)
-    num2 = randint(1, 100)
-    char = choice('+-*')
-    expression = str(num1) + ' ' + char + ' ' + str(num2)
-    global result
-    if char == '+':
-        result = num1 + num2
-    elif char == '-':
-        result = num1 - num2
-    else:
-        result = num1 * num2
-    return expression
-
-
-def calculation():
-    task = 'What is the result of the expression?'
-    hello(task)
-    counter = 0
-    while counter < 3:
-        count = question(random_expression(), result, counter)
-        counter = count
-    if counter == 3:
-        congratulation()
+from brain_games.games.calc_game import calculation
+from brain_games.games.common_functions import question
 
 
 def main():
-    calculation()
+    question(calculation)
 
 
 if __name__ == '__main__':

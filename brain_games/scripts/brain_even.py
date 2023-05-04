@@ -1,32 +1,9 @@
-
-from random import randint
-from brain_games.games.common_functions import hello, question, congratulation
-
-
-def is_even(number):
-    if number % 2 == 0:
-        return 'yes'
-    else:
-        return 'no'
-
-
-def even_question():
-    task = 'Answer "yes" if the number is even, otherwise answer "no".'
-    hello(task)
-    counter = 0
-    while counter < 3:
-        num = randint(1, 1000)
-        expression = str(num)
-        result = is_even(num)
-        count = question(expression, result, counter)
-        counter = count
-
-    if counter == 3:
-        congratulation()
+from brain_games.games.even_game import even_question
+from brain_games.games.common_functions import question
 
 
 def main():
-    even_question()
+    question(even_question)
 
 
 if __name__ == '__main__':
