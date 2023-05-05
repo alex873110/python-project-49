@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from brain_games.games.prime_game import bg_is_prime
-from brain_games.games.common_functions import question
+from brain_games.logic.common_functions import question
 
 
 def main():

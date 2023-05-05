@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from brain_games.games.gcd_game import bg_gcd
-from brain_games.games.common_functions import question
+from brain_games.logic.common_functions import question
 
 
 def main():
