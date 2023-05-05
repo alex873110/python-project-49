@@ -6,21 +6,37 @@
 src="https://api.codeclimate.com/v1/badges/d933dc886756d0a1eb03/maintainability" /></a>
 
 # Link to asciinema video with brain-even game test 
-https://asciinema.org/connect/2eaa6a65-5745-4524-9282-776349ae28da
+
+<https://asciinema.org/connect/2eaa6a65-5745-4524-9282-776349ae28da>
+
 <a href="https://asciinema.org/a/cUogpyf2UWm1Y1R0VygrXLqYo" target="_blank"><img src="https://asciinema.org/a/cUogpyf2UWm1Y1R0VygrXLqYo.svg" /></a>
+
 [![asciicast](https://asciinema.org/a/cUogpyf2UWm1Y1R0VygrXLqYo.svg)](https://asciinema.org/a/cUogpyf2UWm1Y1R0VygrXLqYo)
 
 # Link to asciinema video with brain-calc game test
-https://asciinema.org/a/jiLyhjMfQlyjgAr3VeWMg4cmE
+
+<https://asciinema.org/a/jiLyhjMfQlyjgAr3VeWMg4cmE>
+
+[![asciicast](https://asciinema.org/a/jiLyhjMfQlyjgAr3VeWMg4cmE.svg)](https://asciinema.org/a/jiLyhjMfQlyjgAr3VeWMg4cmE)
 
 # Link to asciinema video with brain-gcd game test
-https://asciinema.org/a/8rqpX6MsbLN1zfhgGlzEH1I4N
+
+<https://asciinema.org/a/8rqpX6MsbLN1zfhgGlzEH1I4N>
+
+[![asciicast](https://asciinema.org/a/8rqpX6MsbLN1zfhgGlzEH1I4N.svg)](https://asciinema.org/a/8rqpX6MsbLN1zfhgGlzEH1I4N)
+
 
 # Link to asciinema video with brain-progression game test
-https://asciinema.org/a/17igkMWywDDZOiROCYs4D3XWk
+
+<https://asciinema.org/a/17igkMWywDDZOiROCYs4D3XWk>
+
+[![asciicast](https://asciinema.org/a/17igkMWywDDZOiROCYs4D3XWk.svg)](https://asciinema.org/a/17igkMWywDDZOiROCYs4D3XWk)
 
 # Link to asciinema video with brain-prime game test
-https://asciinema.org/a/mMP7eHHf5sIXO1eNktuXs3maq
+
+<https://asciinema.org/a/mMP7eHHf5sIXO1eNktuXs3maq>
+
+[![asciicast](https://asciinema.org/a/mMP7eHHf5sIXO1eNktuXs3maq.svg)](https://asciinema.org/a/mMP7eHHf5sIXO1eNktuXs3maq)
 
 # For instsall run <poetry build>, <poetry publish --dry-run>, <python3 -m pip install --user dist/*.whl>. For start game type <brain-even>, <brain-calc>, 
 #<brain-gcd>, <brain-progression> or <brain-prime> in terminal.
