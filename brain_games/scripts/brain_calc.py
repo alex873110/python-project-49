@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from brain_games.games.calc_game import calculation
 from brain_games.games.common_functions import question
 
