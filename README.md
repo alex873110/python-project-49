@@ -19,15 +19,11 @@ src="https://api.codeclimate.com/v1/badges/d933dc886756d0a1eb03/maintainability"
 
 [![asciicast](https://asciinema.org/a/jiLyhjMfQlyjgAr3VeWMg4cmE.svg)](https://asciinema.org/a/jiLyhjMfQlyjgAr3VeWMg4cmE)
 
-<script async id="asciicast-jiLyhjMfQlyjgAr3VeWMg4cmE" src="https://asciinema.org/a/jiLyhjMfQlyjgAr3VeWMg4cmE.js"></script>
-
 # Link to asciinema video with brain-gcd game test
 
 <https://asciinema.org/a/8rqpX6MsbLN1zfhgGlzEH1I4N>
 
 [![asciicast](https://asciinema.org/a/8rqpX6MsbLN1zfhgGlzEH1I4N.svg)](https://asciinema.org/a/8rqpX6MsbLN1zfhgGlzEH1I4N)
-
-<script async id="asciicast-8rqpX6MsbLN1zfhgGlzEH1I4N" src="https://asciinema.org/a/8rqpX6MsbLN1zfhgGlzEH1I4N.js"></script>
 
 # Link to asciinema video with brain-progression game test
 
@@ -35,15 +31,11 @@ src="https://api.codeclimate.com/v1/badges/d933dc886756d0a1eb03/maintainability"
 
 [![asciicast](https://asciinema.org/a/17igkMWywDDZOiROCYs4D3XWk.svg)](https://asciinema.org/a/17igkMWywDDZOiROCYs4D3XWk)
 
-<script async id="asciicast-17igkMWywDDZOiROCYs4D3XWk" src="https://asciinema.org/a/17igkMWywDDZOiROCYs4D3XWk.js"></script>
-
 # Link to asciinema video with brain-prime game test
 
 <https://asciinema.org/a/mMP7eHHf5sIXO1eNktuXs3maq>
 
 [![asciicast](https://asciinema.org/a/mMP7eHHf5sIXO1eNktuXs3maq.svg)](https://asciinema.org/a/mMP7eHHf5sIXO1eNktuXs3maq)
-
-<script async id="asciicast-mMP7eHHf5sIXO1eNktuXs3maq" src="https://asciinema.org/a/mMP7eHHf5sIXO1eNktuXs3maq.js"></script>
 
 ## For instsall run <poetry build>, <poetry publish --dry-run>, <python3 -m pip install --user 
 dist/*.whl>. For start game type <brain-even>, <brain-calc>, 
