@@ -2,10 +2,7 @@ from random import randint
 
 
 def is_even(number):
-    if number % 2 == 0:
-        return 'yes'
-    else:
-        return 'no'
+    return number % 2 == 0
 
 
 TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
@@ -14,6 +11,9 @@ TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
 def even_question():
     num = randint(1, 1000)
     expression = str(num)
-    result = is_even(num)
+    if is_even(num):
+        result = 'yes'
+    else:
+        result = 'no'
     base = (expression, result, TASK)
     return base
