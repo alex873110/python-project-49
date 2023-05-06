@@ -13,8 +13,6 @@ src="https://api.codeclimate.com/v1/badges/d933dc886756d0a1eb03/maintainability"
 
 [![asciicast](https://asciinema.org/a/cUogpyf2UWm1Y1R0VygrXLqYo.svg)](https://asciinema.org/a/cUogpyf2UWm1Y1R0VygrXLqYo)
 
-<script async id="asciicast-cUogpyf2UWm1Y1R0VygrXLqYo" src="https://asciinema.org/a/cUogpyf2UWm1Y1R0VygrXLqYo.js"></script>
-
 # Link to asciinema video with brain-calc game test
 
 <https://asciinema.org/a/jiLyhjMfQlyjgAr3VeWMg4cmE>
