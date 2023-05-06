@@ -1,8 +1,10 @@
 from random import randint
 
 
+TASK = 'What number is missing in the progression?'
+
+
 def bg_progression():
-    task = 'What number is missing in the progression?'
     num1 = randint(1, 100)
     num2 = randint(1, 50)
     num3 = randint(0, 9)
@@ -19,5 +21,5 @@ def bg_progression():
             num1 += num2
             i += 1
     progression = progression[:-1]
-    base = (progression, result, task)
+    base = (progression, result, TASK)
     return (base)

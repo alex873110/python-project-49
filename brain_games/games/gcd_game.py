@@ -12,11 +12,13 @@ def gcd(a, b):
     return (gcd)
 
 
+TASK = 'Find the greatest common divisor of given numbers.'
+
+
 def bg_gcd():
-    task = 'Find the greatest common divisor of given numbers.'
     num1 = randint(1, 100)
     num2 = randint(1, 100)
     expression = str(num1) + ' ' + str(num2)
     result = gcd(num1, num2)
-    base = (expression, result, task)
+    base = (expression, result, TASK)
     return base

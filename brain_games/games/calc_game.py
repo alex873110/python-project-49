@@ -1,8 +1,9 @@
 from random import randint, choice
 
+TASK = 'What is the result of the expression?'
+
 
 def calculation():
-    task = 'What is the result of the expression?'
     num1 = randint(1, 100)
     num2 = randint(1, 100)
     char = choice('+-*')
@@ -14,5 +15,5 @@ def calculation():
         result = num1 - num2
     else:
         result = num1 * num2
-    base = (expression, result, task)
+    base = (expression, result, TASK)
     return base

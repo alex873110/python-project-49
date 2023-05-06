@@ -8,10 +8,12 @@ def is_even(number):
         return 'no'
 
 
+TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+
 def even_question():
-    task = 'Answer "yes" if the number is even, otherwise answer "no".'
     num = randint(1, 1000)
     expression = str(num)
     result = is_even(num)
-    base = (expression, result, task)
+    base = (expression, result, TASK)
     return base
