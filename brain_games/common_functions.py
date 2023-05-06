@@ -9,7 +9,11 @@ def hello(task):
     print(task)
 
 
-def question(game):
+def congratulation():
+    print('Congratulations, ' + name + '!')
+
+
+def answer_questions(game):
     (expression, result, task) = game()
     hello(task)
     counter = 0
@@ -26,17 +30,3 @@ def question(game):
             break
     if counter == 3:
         congratulation()
-
-
-def congratulation():
-    print('Congratulations, ' + name + '!')
-
-
-def main():
-    hello()
-    question()
-    congratulation()
-
-
-if __name__ == '__main__':
-    main()
