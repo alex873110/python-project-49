@@ -1,21 +1,12 @@
 import prompt
 
 
-def hello(task):
+def answer_questions(game):
     print('Welcome to the Brain Games!')
-    global name
     name = prompt.string('May I have your name? ')
     print('Hello, ' + name + '!')
-    print(task)
-
-
-def congratulation():
-    print('Congratulations, ' + name + '!')
-
-
-def answer_questions(game):
     (expression, result, task) = game()
-    hello(task)
+    print(task)
     counter = 0
     while counter < 3:
         print('Question: ' + expression)
@@ -29,4 +20,4 @@ def answer_questions(game):
             print("Let's try again, " + name + '!')
             break
     if counter == 3:
-        congratulation()
+        print('Congratulations, ' + name + '!')
