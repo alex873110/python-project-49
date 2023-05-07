@@ -4,7 +4,7 @@ from random import randint
 TASK = 'What number is missing in the progression?'
 
 
-def bg_progression():
+def get_question_data():
     num1 = randint(1, 100)
     num2 = randint(1, 50)
     num3 = randint(0, 9)

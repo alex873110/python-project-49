@@ -3,7 +3,7 @@ from random import randint, choice
 TASK = 'What is the result of the expression?'
 
 
-def calculation():
+def get_question_data():
     num1 = randint(1, 100)
     num2 = randint(1, 100)
     char = choice('+-*')

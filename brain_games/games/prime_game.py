@@ -4,7 +4,7 @@ from random import randint
 TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def bg_is_prime():
+def get_question_data():
     n = randint(2, 1000)
     d = 2
     expression = str(n)

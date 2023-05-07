@@ -15,7 +15,7 @@ def gcd(a, b):
 TASK = 'Find the greatest common divisor of given numbers.'
 
 
-def bg_gcd():
+def get_question_data():
     num1 = randint(1, 100)
     num2 = randint(1, 100)
     expression = str(num1) + ' ' + str(num2)

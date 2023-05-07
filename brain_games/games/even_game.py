@@ -8,7 +8,7 @@ def is_even(number):
 TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def even_question():
+def get_question_data():
     num = randint(1, 1000)
     expression = str(num)
     if is_even(num):
