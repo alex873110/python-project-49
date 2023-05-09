@@ -38,11 +38,14 @@ src="https://api.codeclimate.com/v1/badges/d933dc886756d0a1eb03/maintainability"
 [![asciicast](https://asciinema.org/a/mMP7eHHf5sIXO1eNktuXs3maq.svg)](https://asciinema.org/a/mMP7eHHf5sIXO1eNktuXs3maq)
 
 # Instalation
-For instsall run <poetry build>, <poetry publish --dry-run>, <python3 -m pip install --user 
-dist/*.whl>. For start game type <brain-even>, <brain-calc>, 
+For instsall run <poetry build>, <poetry publish --dry-run>,
+<python3 -m pip install --user dist/*.whl>.
+For start game type <brain-even>, <brain-calc>, 
 <brain-gcd>, <brain-progression> or <brain-prime> in terminal.
 
 # About project
- brain_games project with math games,for  check you ability to calculate(brain-calc), find 
-even numbers(brain-even), understand number is prime or not(brain-prime), understand arithmetic progression(brain-progression), find greatest common divisor(brain-gcd). In each game you have to 
-answer 3 question for win, if you answer is wrong you loose, and you can try  again). Package prompt and random used in this project. 
+brain_games project with math games,for  check you ability to calculate(brain-calc),
+find even numbers(brain-even), understand number is prime or not(brain-prime),
+understand arithmetic progression(brain-progression), find greatest common divisor(brain-gcd). 
+In each game you have to answer 3 question for win, if you answer is wrong you loose, and you can try  again). 
+Package prompt and random used in this project. 
