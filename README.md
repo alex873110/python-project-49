@@ -40,8 +40,8 @@ src="https://api.codeclimate.com/v1/badges/d933dc886756d0a1eb03/maintainability"
 # Instalation
 For instsall run <poetry build>, <poetry publish --dry-run>,
 <python3 -m pip install --user dist/*.whl>.
-For start game type <brain-even>, <brain-calc>, 
-<brain-gcd>, <brain-progression> or <brain-prime> in terminal.
+For start game type brain-even, brain-calc, 
+brain-gcd, brain-progression or brain-prime in terminal.
 
 # About project
 brain_games project with math games,for  check you ability to calculate(brain-calc),
