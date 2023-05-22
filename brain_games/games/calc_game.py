@@ -10,9 +10,9 @@ def get_question_data():
     expression = str(num1) + ' ' + char + ' ' + str(num2)
     if char == '+':
         result = num1 + num2
-    elif char == '-':
+    if char == '-':
         result = num1 - num2
-    else:
+    if char == '*':
         result = num1 * num2
     base = (expression, result, TASK)
     return base
