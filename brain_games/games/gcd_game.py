@@ -18,7 +18,7 @@ TASK = 'Find the greatest common divisor of given numbers.'
 def get_question_data():
     num1 = randint(1, 100)
     num2 = randint(1, 100)
-    expression = str(num1) + ' ' + str(num2)
+    expression = f'{num1} {num2}'
     result = gcd(num1, num2)
     base = (expression, result, TASK)
     return base
