@@ -1,6 +1,5 @@
 from random import randint
 
-
 TASK = 'What number is missing in the progression?'
 
 
@@ -13,5 +12,5 @@ def get_question_data():
     result = progression[random_index]
     progression[random_index] = '..'
     expression = ' '.join(map(str, progression))
-    base = (expression, result, TASK)
+    base = (expression, result)
     return (base)

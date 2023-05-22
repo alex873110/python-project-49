@@ -4,7 +4,7 @@ from brain_games.games import progression
 
 
 def main():
-    answer_questions(progression.get_question_data)
+    answer_questions(progression)
 
 
 if __name__ == '__main__':

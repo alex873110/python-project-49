@@ -4,7 +4,7 @@ from brain_games.common_functions import answer_questions
 
 
 def main():
-    answer_questions(even.get_question_data)
+    answer_questions(even)
 
 
 if __name__ == '__main__':

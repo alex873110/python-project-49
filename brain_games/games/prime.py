@@ -20,5 +20,5 @@ def get_question_data():
     if not is_prime(n):
         result = 'no'
     expression = str(n)
-    base = (expression, result, TASK)
+    base = (expression, result)
     return (base)

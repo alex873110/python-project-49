@@ -14,5 +14,5 @@ def get_question_data():
         result = num1 - num2
     if char == '*':
         result = num1 * num2
-    base = (expression, result, TASK)
+    base = (expression, result)
     return base
