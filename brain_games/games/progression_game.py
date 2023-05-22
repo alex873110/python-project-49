@@ -5,21 +5,13 @@ TASK = 'What number is missing in the progression?'
 
 
 def get_question_data():
-    num1 = randint(1, 100)
-    num2 = randint(1, 50)
-    num3 = randint(0, 9)
-    progression = ''
-    i = 0
-    while i < 10:
-        if i != num3:
-            progression += str(num1) + ' '
-            num1 += num2
-            i += 1
-        else:
-            progression += '.. '
-            result = num1
-            num1 += num2
-            i += 1
-    progression = progression[:-1]
-    base = (progression, result, TASK)
+    random_index = randint(0, 9)
+    step = randint(1, 50)
+    start = randint(0, 50)
+    stop = start + 10 * step
+    progression = list(range(start, stop, step))
+    result = progression[random_index]
+    progression[random_index] = '..'
+    expression = ' '.join(map(str,progression))
+    base = (expression , result, TASK)
     return (base)
