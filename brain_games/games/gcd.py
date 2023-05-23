@@ -10,8 +10,7 @@ def gcd(a, b):
         remain = greater % smaller
         greater = smaller
         smaller = remain
-    gcd = smaller
-    return (gcd)
+    return (smaller)
 
 
 def get_question_data():
