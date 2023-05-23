@@ -5,9 +5,9 @@ def answer_questions(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    (expression, result) = game.get_question_data()
     print(game.TASK)
     for i in range(3):
+        expression, result = game.get_question_data()
         print(f'Question: {expression}')
         ans = prompt.string('Your answer:')
         if ans != str(result):
@@ -15,6 +15,5 @@ def answer_questions(game):
             print(f"Let's try again, {name}!")
             break
         print('Correct!')
-        (expression, result) = game.get_question_data()
     else:
         print(f'Congratulations, {name}!')
