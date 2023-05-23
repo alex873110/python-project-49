@@ -12,5 +12,4 @@ def get_question_data():
     result = progression[random_index]
     progression[random_index] = '..'
     expression = ' '.join(map(str, progression))
-    base = (expression, result)
-    return (base)
+    return (expression, result)

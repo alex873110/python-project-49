@@ -14,5 +14,4 @@ def get_question_data():
         result = 'yes'
     else:
         result = 'no'
-    base = (expression, result)
-    return base
+    return (expression, result)
