@@ -4,20 +4,15 @@ TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
-    d = 2
-    while d * d <= number:
+    for d in range(2, int(number ** (0.5)) + 1):
         if number % d == 0:
             return False
-        else:
-            d += 1
-    return True
+    else:
+        return number >= 2
 
 
 def get_question_data():
-    n = randint(2, 1000)
-    if is_prime(n):
-        result = 'yes'
-    if not is_prime(n):
-        result = 'no'
+    n = randint(0, 1000)
+    result = is_prime(n) and 'yes' or 'no'
     expression = str(n)
     return (expression, result)
