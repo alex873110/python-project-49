@@ -10,8 +10,5 @@ def is_even(number):
 def get_question_data():
     num = randint(1, 1000)
     expression = str(num)
-    if is_even(num):
-        result = 'yes'
-    else:
-        result = 'no'
+    result = is_even(num) and 'yes' or 'no'
     return (expression, result)
