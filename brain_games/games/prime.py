@@ -4,8 +4,8 @@ TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
-    for d in range(2, int(number ** (0.5)) + 1):
-        if number % d == 0:
+    for divider in range(2, int(number ** (0.5)) + 1):
+        if number % divider == 0:
             return False
     else:
         return number >= 2
