@@ -12,7 +12,7 @@ def is_prime(number):
 
 
 def get_question_data():
-    n = randint(0, 1000)
-    result = is_prime(n) and 'yes' or 'no'
-    expression = str(n)
+    num = randint(0, 1000)
+    result = is_prime(num) and 'yes' or 'no'
+    expression = str(num)
     return (expression, result)
