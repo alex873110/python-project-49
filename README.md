@@ -1,18 +1,18 @@
 # Instalation
 For instsall run `poetry build`, `poetry publish --dry-run`,
-<python3 -m pip install --user dist/*.whl>.
-For start game type brain-even, brain-calc,
-brain-gcd, brain-progression or brain-prime in terminal.
+`python3 -m pip install --user dist/*.whl`.
+For start game type `brain-even`, `brain-calc`,
+`brain-gcd`, `brain-progression` or `brain-prime` in terminal.
 
 # About project
 brain_games project with math games,for  check you ability to 
-calculat$
+calculate(brain-calc)
 find even numbers(brain-even), understand number is prime or 
-not(brain$
+not(brain-prime)
 understand arithmetic progression(brain-progression), find 
-greatest co$
+greatest common divider(brain-gcd)
 In each game you have to answer 3 question for win, if you answer 
-is w$
+is wrong - you can play game again.
 Package prompt and random used in this project.
 
 ### Hexlet tests and linter status:
