@@ -1,5 +1,5 @@
 # Instalation
-For instsall run <poetry build>, <poetry publish --dry-run>,
+For instsall run `poetry build`, `poetry publish --dry-run`,
 <python3 -m pip install --user dist/*.whl>.
 For start game type brain-even, brain-calc,
 brain-gcd, brain-progression or brain-prime in terminal.
