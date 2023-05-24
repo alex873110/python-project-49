@@ -6,6 +6,7 @@ def play_game(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
+    print(game.TASK)
     for round in range(ROUNDS_QUANTITY):
         expression, result = game.get_question_data()
         print(f'Question: {expression}')
