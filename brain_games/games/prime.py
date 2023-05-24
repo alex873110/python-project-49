@@ -4,11 +4,12 @@ TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
+    if number <= 1:
+        return False
     for divider in range(2, int(number ** (0.5)) + 1):
         if number % divider == 0:
             return False
-    else:
-        return number >= 2
+    return True
 
 
 def get_question_data():
