@@ -6,7 +6,8 @@ def play_game(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.TASK)
-    for round in range(3):
+    ROUNDS_QUANTITY = 3
+    for round in range(ROUNDS_QUANTITY):
         expression, result = game.get_question_data()
         print(f'Question: {expression}')
         ans = prompt.string('Your answer:')
