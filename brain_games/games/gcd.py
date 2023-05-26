@@ -18,4 +18,4 @@ def get_question_data():
     num2 = randint(1, 100)
     expression = f'{num1} {num2}'
     result = gcd(num1, num2)
-    return (expression, result)
+    return (expression, str(result))

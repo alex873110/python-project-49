@@ -14,4 +14,4 @@ def get_question_data():
         result = num1 - num2
     if char == '*':
         result = num1 * num2
-    return (expression, result)
+    return (expression, str(result))
