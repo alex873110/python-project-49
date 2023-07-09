@@ -7,11 +7,12 @@ For start game type `brain-even`, `brain-calc`, `brain-gcd`,
 
 # About project
 Brain games project with math games, 
-for check you ability to calculate(brain-calc),  
-find greatest common divider(brain-gcd),   
-understand arithmetic progression(brain-progression),  
-understand number is prime or not(brain-prime)  
-find even numbers(brain-even)  
+for check you ability to:   
+> calculate(brain-calc),  
+> find greatest common divider(brain-gcd),   
+> understand arithmetic progression(brain-progression),  
+> understand number is prime or not(brain-prime),  
+> find even numbers(brain-even).  
 
 In each game you have to answer 3 question for win,  
 if you answer is wrong - you can play game again.  
