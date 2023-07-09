@@ -16,7 +16,7 @@ find even numbers(brain-even)
 In each game you have to answer 3 question for win,  
 if you answer is wrong - you can play game again.  
 
-Package prompt and random used in this project.
+Packages prompt and random used in this project.
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/alex873110/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/alex873110/python-project-49/actions)
