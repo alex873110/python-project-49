@@ -6,7 +6,7 @@ For start game type `brain-even`, `brain-calc`, `brain-gcd`,
 `brain-progression` or `brain-prime` in terminal.  
 
 # About project
-brain_games project with math games, 
+Brain games project with math games, 
 for check you ability to calculate(brain-calc),  
 find greatest common divider(brain-gcd),   
 understand arithmetic progression(brain-progression),  
