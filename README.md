@@ -1,3 +1,6 @@
+[![Actions Status](https://github.com/alex873110/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/alex873110/python-project-49/actions) <a 
+href="https://codeclimate.com/github/alex873110/python-project-49/maintainability"><img
+src="https://api.codeclimate.com/v1/badges/d933dc886756d0a1eb03/maintainability" /></a>
 # Instalation
 For instsall run `poetry build`, `poetry publish --dry-run`,  
 `python3 -m pip install --user dist/*.whl`.  
@@ -18,13 +21,6 @@ In each game you have to answer 3 question for win,
 if you answer is wrong - you can play game again.  
 
 Packages prompt and random used in this project.
-
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/alex873110/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/alex873110/python-project-49/actions)
-
-## Code Climate Maintainability Badge link 
-<a href="https://codeclimate.com/github/alex873110/python-project-49/maintainability"><img 
-src="https://api.codeclimate.com/v1/badges/d933dc886756d0a1eb03/maintainability" /></a>
 
 ##  Link to asciinema video with brain-even game test 
 
